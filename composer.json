@@ -1,0 +1,16 @@
+{
+    "name": "vlad/test",
+    "description": "Tasks by Alexey",
+    "require": {
+        "nesbot/carbon": "2.38.0",
+        "vlucas/phpdotenv": "v5.1.0",
+        "ramsey/uuid": "4.1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vlad West",
+            "email": "vladsv001@gmail.com"
+        }
+    ]
+}
