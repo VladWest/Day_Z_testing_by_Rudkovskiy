@@ -12,5 +12,11 @@
             "name": "Vlad West",
             "email": "vladsv001@gmail.com"
         }
-    ]
-}
+    ],
+    "autoload": {
+      "psr-4": {
+        "Svystun\\":"src/"
+      }
+    }
+  }
+  
