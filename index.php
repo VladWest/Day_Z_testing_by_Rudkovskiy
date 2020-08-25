@@ -13,6 +13,7 @@ use Dotenv\Repository\RepositoryBuilder;
  use Svystun\Page;
  use Svystun\User;
  use Svystun\DB;
+ use Svystun\Test\TestClass;
 
 echo "Testing Carbon package";
 echo "<br>";
@@ -58,6 +59,12 @@ echo "<br>";
  
 $db = new DB();
 $db->testDB();
+echo "<br>";
+
+// Testing TestClass class from Svystun namespace
+ 
+$db = new TestClass();
+$db->testClasss();
 echo "<br>";
 
 ?>

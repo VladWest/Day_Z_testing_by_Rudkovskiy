@@ -15,7 +15,8 @@
     ],
     "autoload": {
       "psr-4": {
-        "Svystun\\":"src/"
+        "Svystun\\":"src/",
+        "Svystun\\Test\\": "src/Test/"
       }
     }
   }
