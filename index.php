@@ -64,7 +64,7 @@ echo "<br>";
 // Testing TestClass class from Svystun namespace
  
 $db = new TestClass();
-$db->testClasss();
+$db->testClass();
 echo "<br>";
 
 ?>
