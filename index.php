@@ -36,11 +36,14 @@ echo "<br>";
 
 // Testing Dotenv
 echo "Testing Dotenv" . "<br>";
-// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-// $dotenv->load();
-// $s3_bucket = $_ENV['S3_BUCKET'];
-// $s3_bucket = $_SERVER['S3_BUCKET'];
-// echo "S3_bucket from .env file : " . $s3_bucket;
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+$s3_bucket = getenv('S3_BUCKET');
+$s3_bucket = $_ENV['S3_BUCKET'];
+echo $s3_bucket;
+echo "<br>";
+echo "S3_bucket from .env file : " . $s3_bucket;
+echo "<br>";
 
 
 // Testing Page class from Svystun namespace
