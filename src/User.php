@@ -2,9 +2,11 @@
 
 namespace Svystun;
 
-class User{
+class User
+{
 
-    public function testUser() {
+    public function testUser() 
+    {
 
         echo "This is the simple text from User class in Svystun namespace";
 

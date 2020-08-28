@@ -2,9 +2,11 @@
 
 namespace Svystun;
 
-class DB{
+class DB
+{
 
-    public function testDB() {
+    public function testDB()
+     {
 
         echo "This is the simple text from DB class in Svystun namespace";
        
