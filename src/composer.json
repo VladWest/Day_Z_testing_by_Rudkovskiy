@@ -1,9 +1,0 @@
-{
-  "name": "vlad/test",
-  "description": "Tasks by Alexey",
-  "autoload": {
-    "psr-4": {
-      "Svystun\\":"src/"
-    }
-  }
-}

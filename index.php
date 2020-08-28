@@ -70,4 +70,3 @@ $db = new TestClass();
 $db->testClass();
 echo "<br>";
 
-?>
